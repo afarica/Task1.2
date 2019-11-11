@@ -1,10 +1,5 @@
-a=int(input("Enter your even number:"))
-c=a%2 
-if c==0: 
-	print(True)
-else:
-    print(False)	
-
-
-	
-
+# Write a function square_number that
+# takes in a number and squares it.
+a=int(input("Enter your number:")) 
+c=a**2
+print(c)
